@@ -34,7 +34,7 @@ header
   left: 0;
   width: 100%;
   padding: 40px 80px;
-  z-index: 1000;
+  z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +81,7 @@ header .spacer
 
 /* .social *:not(:first-of-type) {
   margin-left: 40px;
-} */
+} for when more social logos need to be added*/
 
 .toggle
 {
