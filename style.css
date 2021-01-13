@@ -76,6 +76,7 @@ header .spacer
   display: flex;
   justify-content: center;
   z-index: 10;
+  filter: saturate(2);
 }
 
 /* .social *:not(:first-of-type) {
