@@ -8,18 +8,13 @@
 }
 
 .showcase {
-    position: absolute;
-    right: 0;
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #111;
+    background-color:black;
     color: #fff;
-    z-index: 2;
 }
+
 
 .showcase video
 {
@@ -45,6 +40,17 @@ header
   align-items: center;
 }
 
+.git-section
+{
+  justify-content: center;
+  display: flex;
+}
+
+header .spacer
+{
+  width: 100px;
+}
+
 .text
 {
   position: relative;
@@ -66,41 +72,20 @@ header
   line-height: 1em;
 }
 
-.social
-{
-  position: absolute;
-  z-index: 10;
-  bottom: 80px;
-  left: 1000px;
+.social {
   display: flex;
   justify-content: center;
-  align-items: center;
+  z-index: 10;
 }
-.social li
-{
-  list-style: none;
-}
-.social li a
-{
-  display: inline-block;
-  margin-right: 20px;
-  filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s;
-}
-.social li a:hover
-{
-  transform: scale(0.5) translateY(-15px);
-}
+
+/* .social *:not(:first-of-type) {
+  margin-left: 40px;
+} */
 
 .toggle
 {
     position: relative;
     height: 60px;
-    width: 1800px;
-    background: url(https://i.ibb.co/HrfVRcx/menu.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: center;
+    width: 0px;
     cursor: pointer;
 }
