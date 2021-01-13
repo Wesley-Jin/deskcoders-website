@@ -92,3 +92,15 @@ header
 {
   transform: scale(0.5) translateY(-15px);
 }
+
+.toggle
+{
+    position: relative;
+    height: 60px;
+    width: 1800px;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
