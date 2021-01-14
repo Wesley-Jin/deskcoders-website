@@ -79,11 +79,15 @@ header .spacer
   filter: saturate(2);
   transform: scale(0.5);
   transition: 0.5s;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+
 }
 
 .social:hover
 {
-  transform: scale(0.5) translateY(-15px);
+  transform: scale(0.5) translateY(-25px);
 }
 
 /* .social *:not(:first-of-type) {
