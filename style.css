@@ -64,6 +64,30 @@ header .spacer
   z-index: 10;
 }
 
+.exploreButton
+{
+  position: relative;
+  z-index: 10;
+  background-color: #c0c0c0; color: black;
+  color: white;
+  border: 2px solid #008CBA;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 12px 26px;
+  border-radius: 12px;
+  width: 180px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.exploreButton:hover
+{
+  background-color: #474747;
+  color: white;
+  opacity: 80%;
+  cursor: pointer;
+}
+
 .text h2
 {
   font-size: 5em;
