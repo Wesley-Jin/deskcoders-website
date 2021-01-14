@@ -80,9 +80,9 @@ header .spacer
   transform: scale(0.5);
   transition: 0.5s;
   position: absolute;
-  bottom: 100px;
+  bottom: 150px;
   width: 100%;
-
+  left: 0px;
 }
 
 .social:hover
@@ -93,6 +93,23 @@ header .spacer
 /* .social *:not(:first-of-type) {
   margin-left: 40px;
 } for when more social logos need to be added*/
+
+.socialtextdiv {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  position: absolute;
+  bottom: 115px;
+  width: 100%;
+  left: 0px;
+}
+
+.socialtext
+{
+  list-style-type: none;
+  text-align: center;
+
+}
 
 .toggle
 {
