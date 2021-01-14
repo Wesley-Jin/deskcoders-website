@@ -80,7 +80,7 @@ header .spacer
   transform: scale(0.5);
   transition: 0.5s;
   position: absolute;
-  bottom: 150px;
+  bottom: 125px;
   width: 100%;
   left: 0px;
 }
@@ -99,7 +99,7 @@ header .spacer
   justify-content: center;
   z-index: 10;
   position: absolute;
-  bottom: 115px;
+  bottom: 90px;
   width: 100%;
   left: 0px;
 }
