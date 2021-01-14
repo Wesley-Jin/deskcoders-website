@@ -108,7 +108,11 @@ header .spacer
 {
   list-style-type: none;
   text-align: center;
+}
 
+.menubox
+{
+  list-style-type: none;
 }
 
 .toggle
