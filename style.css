@@ -22,6 +22,9 @@
     padding: 100px;
     background-color:black;
     color: #fff;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo
@@ -153,7 +156,6 @@ header
   filter: saturate(2);
   transform: scale(0.5);
   transition: 0.5s;
-  position: absolute;
   bottom: 125px;
   width: 100%;
   left: 0px;
@@ -172,10 +174,11 @@ header
   display: flex;
   justify-content: center;
   z-index: 10;
-  position: absolute;
   bottom: 75px;
   width: 100%;
   left: 0px;
+  z-index: 10;
+  filter: saturate(2);
 }
 
 .socialtext
