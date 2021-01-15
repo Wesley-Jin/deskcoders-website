@@ -83,12 +83,12 @@ header .spacer
   display: inline-block;
 }
 
-/* .exploreButton:hover
+.exploreButton:hover
 {
-  color: white;
-  opacity: 80%;
+  color: rgb(253, 237, 250);
+  opacity: 85%;
   cursor: pointer;
-} */
+}
 
 .exploreButton:hover span
 {
@@ -109,7 +109,7 @@ header .spacer
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -15px;
   transition: 0.75s;
 }
 
