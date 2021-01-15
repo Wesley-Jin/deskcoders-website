@@ -47,12 +47,6 @@ header
   align-items: center;
 }
 
-.git-section
-{
-  justify-content: center;
-  display: flex;
-}
-
 header .spacer
 {
   width: 100px;
@@ -62,13 +56,22 @@ header .spacer
 {
   position: relative;
   z-index: 10;
+  text-align: center;
+  padding-top: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.text p
+{
+  padding-top: 2%;
 }
 
 .exploreButton
 {
   position: relative;
   z-index: 10;
-  background-color: #c0c0c0; color: black;
+  background-color: #818181; color: black;
   color: white; /*text color*/
   border: none;
   text-align: center;
@@ -161,7 +164,7 @@ header .spacer
   justify-content: center;
   z-index: 10;
   position: absolute;
-  bottom: 90px;
+  bottom: 75px;
   width: 100%;
   left: 0px;
 }
