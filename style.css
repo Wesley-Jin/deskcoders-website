@@ -78,11 +78,12 @@ header .spacer
   border-radius: 12px;
   width: 180px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 15px;
+  transition: all 0.5s;
 }
 
 .exploreButton:hover
 {
-  background-color: #474747;
   color: white;
   opacity: 80%;
   cursor: pointer;
@@ -151,10 +152,3 @@ header .spacer
   cursor: pointer;
 }
 
-.toggle
-{
-    position: relative;
-    height: 60px;
-    width: 0px;
-    cursor: pointer;
-}
