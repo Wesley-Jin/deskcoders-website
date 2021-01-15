@@ -146,6 +146,11 @@ header .spacer
   list-style-type: none;
 }
 
+.navbarButton:hover
+{
+  cursor: pointer;
+}
+
 .toggle
 {
     position: relative;
