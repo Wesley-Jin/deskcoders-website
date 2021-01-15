@@ -69,8 +69,8 @@ header .spacer
   position: relative;
   z-index: 10;
   background-color: #c0c0c0; color: black;
-  color: white;
-  border: 2px solid #008CBA;
+  color: white; /*text color*/
+  border: none;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -79,14 +79,44 @@ header .spacer
   width: 180px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 15px;
-  transition: all 0.5s;
+  transition: all 0.75s;
+  display: inline-block;
 }
 
-.exploreButton:hover
+/* .exploreButton:hover
 {
   color: white;
   opacity: 80%;
   cursor: pointer;
+} */
+
+.exploreButton:hover span
+{
+  padding-right:15px;
+}
+
+.exploreButton span
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.75s;
+}
+
+.exploreButton span:after
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.75s;
+}
+
+.exploreButton:hover span:after
+{
+  opacity: 1;
+  right: 0;
 }
 
 .text h2
