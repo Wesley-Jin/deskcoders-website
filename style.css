@@ -189,8 +189,17 @@ header
   list-style-type: none;
 }
 
+.navbarButton
+{
+  transition: opacity 0.5s;
+}
 .navbarButton:hover
 {
+  background: url(public/x-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 48px;
+  opacity: 80%;
   cursor: pointer;
 }
 
