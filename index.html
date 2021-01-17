@@ -18,6 +18,7 @@
     <meta property="og:description" content="Site description" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="public/favicon16.png" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
             <!-- Title on the top-left of the website -->
             <h2 class="logo" style="font-size: 3.07vh">DeskCoders</h2>
             <div class="navbarButton">
-                <img src="public/menu.svg" style="max-width: 90%;" onclick="this.src='public/x-circle.svg'"/>
+                <img src="public/menu.svg" style="max-width: 90%;" id="menuButton" onclick="changeButton(this)" style="transition: 2s"/>
             </div>
 
             <!--Spacer (replica of title) inserted positioned in the top-right of the website, changed to be invisible and allows navbarButton to be centered-->
