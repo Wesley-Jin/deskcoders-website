@@ -96,6 +96,7 @@ header
   margin: 1.6%;
   transition: all 0.75s;
   display: inline-block;
+  outline: none;
 }
 
 .exploreButton:hover
