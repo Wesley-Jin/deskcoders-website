@@ -195,11 +195,6 @@ header
 }
 .navbarButton:hover
 {
-  background: url(public/x-circle.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 48px;
-  opacity: 80%;
   cursor: pointer;
 }
 
