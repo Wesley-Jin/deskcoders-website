@@ -191,7 +191,7 @@ header
 
 .navbarButton
 {
-  transition: opacity 0.5s;
+  transition: 0.5s;
 }
 .navbarButton:hover
 {
