@@ -31,6 +31,16 @@
 {
   font-family: 'Kaushan Script', sans-serif;
   font-size: 35px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.logo:hover
+{
+  cursor: pointer;
 }
 
 .navbarSpacer
