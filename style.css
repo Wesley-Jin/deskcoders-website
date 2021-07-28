@@ -204,10 +204,17 @@ header
 {
   transition: 0.5s;
   padding-top: 4px;
+  transform: scale(1);
 }
 .navbarButton:hover
 {
   cursor: pointer;
   transform: scale(1.2);
 }
+.navbarButton:active
+{
+  transform: rotate(180deg);
+  transition: 0.25s;
+}
+
 
