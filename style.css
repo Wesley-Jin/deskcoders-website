@@ -203,6 +203,7 @@ header
 .navbarButton
 {
   transition: 0.5s;
+  padding-top: 4px;
 }
 .navbarButton:hover
 {
