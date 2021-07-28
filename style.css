@@ -173,7 +173,7 @@ header
 
 .social:hover
 {
-  transform: scale(0.5) translateY(-25px);
+  transform: scale(0.7) translateY(-25px);
 }
 
 /* .social *:not(:first-of-type) {
@@ -208,5 +208,6 @@ header
 .navbarButton:hover
 {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
