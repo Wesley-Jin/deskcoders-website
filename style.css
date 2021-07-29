@@ -35,7 +35,6 @@
   background: transparent;
   color: inherit;
   text-decoration: none;
-  
 }
 
 .logo:hover
@@ -48,6 +47,8 @@
   font-family: 'Kaushan Script', sans-serif;
   font-size: 35px;
   opacity: 0;
+  display: flex;
+  align-items: flex-start;
 }
 
 .showcase video
@@ -203,7 +204,6 @@ header
 .navbarButton
 {
   transition: 0.5s;
-  padding-top: 4px;
   transform: scale(1);
 }
 .navbarButton:hover
@@ -215,6 +215,37 @@ header
 {
   transform: rotate(180deg);
   transition: 0.25s;
+}
+
+.navbar
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.navbarMenu
+{
+  position: absolute;
+  top: 120%;
+  min-width: 150px;
+  display: none;
+  background-color: #f1f1f1;
+  overflow: auto;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.navbarMenu a:hover
+{
+  background-color: black;
+}
+
+.show
+{
+  display: flex;
+  flex-direction: column;
 }
 
 
