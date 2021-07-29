@@ -18,7 +18,7 @@
     <meta property="og:description" content="Site description" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="public/favicon16.png" />
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
@@ -29,6 +29,10 @@
             <a href="./index.html" class="logo" style="font-size: 4vh">DeskCoders</a>
             <div class="navbarButton">
                 <img src="public/menu.svg" style="max-width: 90%;" id="menuButton" onclick="changeButton(this)"/>
+                <!-- <div id="navbar" class="navbarMenu">
+                    <a href="./projects.html">My Projects</a>
+                    <a href="./aboutus.html">About Me</a>
+                </div> -->
             </div>
 
             <!--Spacer (replica of title) inserted positioned in the top-right of the website, changed to be invisible and allows navbarButton to be centered-->
@@ -49,12 +53,14 @@
             <a href="./projects.html" class="exploreButton" style="font-size: 1.5vh"><span>Explore</span></a>
         </div>
 
-        <!-- <div class="menu">
+        <!-- <nav>
+        <div class="menu">
                 <ul class="menubox">
-                    <li>My Projects</li>
-                    <li>About Me</li>
+                    <li><a href="./projects.html">My Projects</a></li>
+                    <li><a href="./aboutus.html">About Me</a></li>
                 </ul>
-            </div> -->
+            </div>
+        </nav> -->
 
         <div class="footer">
             <div class="social">
