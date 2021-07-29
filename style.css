@@ -17,14 +17,32 @@
 
 .showcase 
 {
-    width: 100%;
     min-height: 100vh;
-    padding: 5%;
+    padding: 1rem;
     background-color:black;
     color: #fff;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+}
+
+.showcase > *
+{
+  z-index: 1;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .logo
@@ -51,25 +69,9 @@
   align-items: flex-start;
 }
 
-.showcase video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.8;
-}
-
 header
 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2% 4%;
-  z-index: 20;
+  padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,17 +79,13 @@ header
 
 .text
 {
-  position: relative;
-  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding-top: 20%;
-  padding-left: 25%;
-  padding-right: 25%;
-}
-
-.text p
-{
-  padding-top: 2%;
+  max-width: 850px;
+  margin: 0 auto;
+  gap: 0.5rem;
 }
 
 .exploreButton
