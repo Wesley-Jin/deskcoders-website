@@ -17,28 +17,31 @@
 
 .showcase 
 {
-    min-height: 100vh;
+    min-height: 100vh; /* Take up whole height */
     padding: 1rem;
     background-color:black;
     color: #fff;
-    justify-content: space-between;
+    justify-content: space-between; /* Space out showcase children */
+    /* Column layout that spans over whole container */
     display: flex;
     flex-direction: column;
 }
 
 .showcase > *
 {
+  /* Renders all showcase children above the video background */
   z-index: 1;
 }
 
 .showcase video
 {
+  /* Position the video to take up the whole parent container */
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 0;
+  z-index: 0; /* Positions the video behind showcase elements */
   opacity: 0.8;
   width: 100%;
   height: 100%;
@@ -93,7 +96,7 @@ header
   position: relative;
   z-index: 10;
   background-color: #818181; color: black;
-  color: white; /*text color*/
+  color: white; /* text color */
   border: none;
   text-align: center;
   text-decoration: none;
