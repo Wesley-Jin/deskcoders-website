@@ -4,9 +4,9 @@ function changeButton(element) {
     element.bln = !element.bln;
 }
 
-// function showDropdown() {
-//     document.getElementById("#navbar").classList.toggle("show");
-// }
+//  function showDropdown() {
+//      document.getElementById("#dropdown").classList.toggle("show");
+//  }
 
 // // Close the dropdown if the user clicks outside of it
 // window.onclick = function(event) {
