@@ -233,13 +233,18 @@ header
   display: none;
   background-color: #f1f1f1;
   overflow: auto;
-  align-items: flex-start;
+  text-align: center;
   padding: 1rem;
+}
+
+.navbarMenu a 
+{
+
 }
 
 .navbarMenu a:hover
 {
-  background-color: black;
+  background-color: blue;
 }
 
 .show
