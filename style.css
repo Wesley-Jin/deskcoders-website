@@ -78,6 +78,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
 }
 
 .text
@@ -275,11 +276,20 @@ header
 .backgroundImage
 {
   background-color: black;
-  max-height: 100%;
-  max-width: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 70%;
 }
 
+.showcase2 
+{
+    min-height: 100vh; /* Take up whole height */
+    background-color:black;
+    color: #ffff;
+    justify-content: space-between; /* Space out showcase children */
+    /* Column layout that spans over whole container */
+    display: flex;
+    flex-direction: column;
+}
 
