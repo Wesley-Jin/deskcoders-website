@@ -9,18 +9,19 @@ function changeButton(element) {
  }
 
 // Close the dropdown if the user clicks outside of it
-// window.onclick = function(event) {
-//     if (!event.target.matches('.navbarButton')) {
-//       var dropdowns = document.getElementsByClassName("navbarMenu");
-//       var i;
-//       for (i = 0; i < dropdowns.length; i++) {
-//         var openDropdown = dropdowns[i];
-//         if (openDropdown.classList.contains('show')) {
-//           openDropdown.classList.remove('show');
-//         }
-//       }
-//     }
-//   }
+window.onclick = function(event) {
+    if (!event.target.matches('.navbarButton')) {
+      var dropdowns = document.getElementsByClassName("navbarMenu");
+      for (var i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+          const navbarButtonEl = document.querySelector('.navbarButton');
+          changeButton(navbarButtonEl);
+        }
+      }
+    }
+  }
 
 
 // document.getElementById("#menuButton").addEventListener("click", function()
