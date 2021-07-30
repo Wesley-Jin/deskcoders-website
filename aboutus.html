@@ -24,9 +24,27 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="showcase"> 
-                <h2 style="font-size: 5.62vh"class= "name" > Wesley Jin</h2>
-                <p style="font-size: 1.41vh"> basic description</p> 
+        <div class="showcase">
+            <img src="public/WesleyBG.jpg" alt="Wesley Background Image" class="backgroundImage">
+            <header>
+                <!-- Title on the top-left of the website -->
+                <a href="./index.html" class="logo" style="font-size: 4vh">DeskCoders</a>
+                <div class="navbar">
+                    <img src="public/menu.svg" style="max-width: 90%;" class="navbarButton" onclick="changeButton(this);showDropdown()"/>
+    
+                    <div id="dropdown" class="navbarMenu">
+                        <a style="--order: 0" href="./projects.html">My Projects</a>
+                        <a style="--order: 1" href="./aboutus.html">About Me</a>
+                    </div>
+    
+                </div>
+    
+                <!--Spacer (replica of title) inserted positioned in the top-right of the website, changed to be invisible and allows navbarButton to be centered-->
+                <div class="navbarSpacer" style="font-size: 4vh">DeskCoders</div>
+            </header>
+
+            <!-- <h2 style="font-size: 5.62vh"class= "name" > Wesley Jin</h2>
+            <p style="font-size: 1.41vh"> basic description</p>  -->
         </div>
         
         <script src="" async defer></script>
