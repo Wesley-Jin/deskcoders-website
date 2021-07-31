@@ -155,4 +155,27 @@ header
   flex-direction: column;
 }
 
+.text
+{
+  display:block;
+  position:absolute;
+  top: 22rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 50px;
+  background:transparent;
+  padding-bottom:50px;
+  padding-left:15%;
+  padding-right:15%;
+  width: 60%;
+  color: white;
+  text-align: center;
+}
 
+.text2
+{
+  background: #2D3047;
+  position: relative;
+  height: 30vh;
+}
