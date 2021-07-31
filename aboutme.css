@@ -33,13 +33,31 @@
   z-index: 1;
 }
 
+.backgroundPhoto
+{
+  background-image: url("public/WesleyBG.jpg");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 70%;
+}
+
 header
 {
   padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .logo
@@ -137,20 +155,4 @@ header
   flex-direction: column;
 }
 
-.backgroundImage
-{
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 70%;
-  /* Position the video to take up the whole parent container */
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0; /* Positions the video behind showcase elements */
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
