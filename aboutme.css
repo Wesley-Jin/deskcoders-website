@@ -58,6 +58,8 @@ header
   position: fixed;
   left: 0;
   right: 0;
+  /* push header to right 1rem to compensate for position: fixed difference to index.css header */
+  margin: 0rem 0rem 0rem 1rem;
 }
 
 .logo
@@ -159,7 +161,7 @@ header
 {
   display:block;
   position:absolute;
-  top: 22rem;
+  top: 23rem;
   left: 0;
   right: 0;
   margin: auto;
@@ -173,9 +175,8 @@ header
   text-align: center;
 }
 
-.text2
-{
+.section{
+  text-align:center;
+  padding:50px 80px;
   background: #2D3047;
-  position: relative;
-  height: 30vh;
 }
