@@ -197,11 +197,6 @@ header
   text-align: center;
 }
 
-.menubox
-{
-  list-style-type: none;
-}
-
 .navbarButton
 {
   transition: 0.7s;
@@ -273,20 +268,3 @@ header
   flex-direction: column;
 }
 
-.backgroundImage
-{
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 70%;
-  /* Position the video to take up the whole parent container */
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0; /* Positions the video behind showcase elements */
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
