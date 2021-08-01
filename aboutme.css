@@ -79,6 +79,16 @@
   filter: brightness(70%);
 }
 
+.utsLogo
+{
+  background-image: url("public/UTSlogo.jpg");
+  z-index: 0;
+  padding: 120px;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 18rem;
+}
+
 header
 {
   padding: 1.5rem 3rem;
@@ -207,6 +217,13 @@ header
   width: 60%;
   color: white;
   text-align: center;
+}
+
+.text3
+{
+  color: white;
+  text-align: right;
+
 }
 
 .section{
