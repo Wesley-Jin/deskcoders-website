@@ -166,14 +166,11 @@ header
   display: flex;
   justify-content: center;
   z-index: 10;
-  filter: saturate(2);
-  transform: scale(0.5);
-  transition: 0.5s;
   width: 100%;
   left: 0px;
 }
 
-.social:hover
+.socialImg:hover
 {
   transform: scale(0.7) translateY(-25px);
 }
@@ -181,6 +178,13 @@ header
 /* .social *:not(:first-of-type) {
   margin-left: 40px;
 } for when more social logos need to be added*/
+
+.socialImg
+{
+  filter: saturate(2);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
 
 .socialtextdiv {
   display: flex;
