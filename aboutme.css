@@ -53,7 +53,7 @@
 {
   background-image: url("public/mountainBG.jpg");
   z-index: 0;
-  padding: 600px;
+  padding: 400px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -68,7 +68,7 @@
 {
   background-image: url("public/WesleyBG.jpg");
   z-index: 0;
-  padding: 600px;
+  padding: 50% 0% 0% 0%;
   top: 0;
   left: 0;
   bottom: 0;
@@ -210,5 +210,40 @@ header
   padding:50px 80px;
   background: #2D3047;
   color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  filter: saturate(2);
+  transform: scale(0.5);
+  transition: 0.5s;
+  width: 100%;
+  left: 0px;
+}
+
+.social:hover
+{
+  transform: scale(0.7) translateY(-25px);
+}
+
+/* .social *:not(:first-of-type) {
+  margin-left: 40px;
+} for when more social logos need to be added*/
+
+.socialtextdiv {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  width: 100%;
+  z-index: 10;
+  filter: saturate(2);
+}
+
+.socialtext
+{
+  list-style-type: none;
+  text-align: center;
 }
 
