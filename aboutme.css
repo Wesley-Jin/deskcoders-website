@@ -33,7 +33,7 @@
   z-index: 1;
 }
 
-.backgroundPhoto
+.bgImage1
 {
   background-image: url("public/WesleyBG.jpg");
   top: 0;
@@ -46,7 +46,37 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  opacity: 70%;
+  filter: brightness(70%);
+}
+
+.bgImage2
+{
+  background-image: url("public/mountainBG.jpg");
+  z-index: 0;
+  padding: 600px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+}
+
+.bgImage3
+{
+  background-image: url("public/WesleyBG.jpg");
+  z-index: 0;
+  padding: 600px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(70%);
 }
 
 header
@@ -179,4 +209,6 @@ header
   text-align:center;
   padding:50px 80px;
   background: #2D3047;
+  color: white;
 }
+
