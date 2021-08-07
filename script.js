@@ -1,6 +1,6 @@
 
 function changeButton(element) {
-    element.src = element.bln ? "public/menu.svg" : "public/x-circle.svg";
+    element.src = element.bln ? "public/hamburger.svg" : "public/x-circle.svg";
     element.bln = !element.bln;
 }
 
