@@ -78,6 +78,12 @@
   filter: brightness(70%);
 }
 
+.pulseBtn
+{
+  height: 50px;
+  margin-top: 50px;
+}
+
 .utsLogo
 {
   background-image: url("public/UTSlogo.jpg");
@@ -202,30 +208,27 @@ header
 
 .text
 {
-  display:block;
+  display:flex;
+  flex-direction: column;
   position:absolute;
   top: 23rem;
   left: 0;
   right: 0;
   margin: auto;
-  font-size: 50px;
-  background:transparent;
-  padding-bottom:50px;
-  padding-left:15%;
-  padding-right:15%;
-  width: 60%;
+  background: transparent;
   color: white;
   text-align: center;
+  gap: 0.5rem;
+  max-width: 45rem;
 }
 
 .text3
 {
   color: white;
   text-align: right;
-
 }
 
-.section{
+.section {
   text-align:center;
   padding:50px 80px;
   background: #2D3047;
@@ -266,4 +269,5 @@ header
   list-style-type: none;
   text-align: center;
 }
+
 
