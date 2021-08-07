@@ -254,7 +254,7 @@ header
   opacity: 80%;
 }
 
-@-webkit-keyframes menu
+@keyframes menu
 {
   0% {
     opacity: 0%;
