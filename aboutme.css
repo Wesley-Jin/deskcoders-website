@@ -117,11 +117,13 @@
 .backTopBtn
 {
   display: block;
-  margin-left: auto;
-  width: 10%;
-  height: 100px;
-  animation: pulse 1.5s infinite;
+  width: 6%;
+  height: 8%;
+  animation: pulse 7s infinite;
   visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 .backTopBtn:hover 
