@@ -68,7 +68,7 @@
 {
   background-image: url("public/WesleyBG.jpg");
   z-index: 0;
-  padding-top: 60rem;
+  padding-top: 30rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -280,6 +280,17 @@
   /* font-size: 20px; */
 }
 
+.text4
+{
+  color: white;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 30rem;
+  max-width: 45rem;
+}
+
 .section {
   display: block;
   text-align: center;
@@ -345,14 +356,17 @@
   }
   .bgImage3
   {
-    padding-top: 40rem;
+    padding-top: 15rem;
   }
 
   .text
   {
     top: 10rem;
-    
   } 
+  .text4
+  {
+    height: 15rem;
+  }
   .pulseBtn
   {
     height: 20px;
@@ -370,5 +384,11 @@
   {
     margin: 0rem;
     padding: 1rem;
+  }
+  .backTopBtn
+  {
+    width: 15%;
+    height: 15%;
+    background-size: 50px 50px;
   }
 }
