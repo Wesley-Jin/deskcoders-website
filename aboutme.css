@@ -246,13 +246,14 @@ header
   max-width: 70%;
   text-align: center;
   margin: auto;
+  font-size: 2vh;
 }
 
 .text3
 {
   color: white;
   max-width: 40rem;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .section {
