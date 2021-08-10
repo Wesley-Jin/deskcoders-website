@@ -23,6 +23,9 @@ window.onclick = function(event) {
     }
   }
 
+document.addEventListener("scroll", function toggleBackToTopButton(e) {
+    backToTopEl.style.visibility = window.scrollY > 200 ? "visible" : "hidden";
+})
 
 // document.getElementById("#menuButton").addEventListener("click", function()
 // {
