@@ -72,7 +72,7 @@
   align-items: flex-start;
 }
 
-header
+.head
 {
   padding: 1.5rem 3rem;
   display: flex;
@@ -271,3 +271,19 @@ header
   flex-direction: column;
 }
 
+@media only screen and (max-width: 800px) {
+
+  .navbarButton
+  {
+    height: 25px;
+  }
+  .socialImg
+  {
+    height: 40px;
+  }
+  .head
+  {
+    margin: 1rem 0 0 0;
+    padding: 0rem;
+  }
+}
