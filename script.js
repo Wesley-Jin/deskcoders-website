@@ -23,9 +23,20 @@ window.onclick = function(event) {
     }
   }
 
-document.addEventListener("scroll", function toggleBackToTopButton(e) {
-    backToTopEl.style.visibility = window.scrollY > 200 ? "visible" : "hidden";
+const backToTopEl = document.querySelector(".backTopBtn");
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 600) {
+    backToTopEl.classList.add("active");
+  }
+  else {
+    backToTopEl.classList.remove("active");
+  }
 })
+
+
+// document.addEventListener("scroll", (function toggleBackToTopButton(e)) {
+//     backToTopEl.style.visibility = window.scrollY > 600 ? "visible" : "hidden";
+// })
 
 // document.getElementById("#menuButton").addEventListener("click", function()
 // {
