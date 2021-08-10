@@ -101,16 +101,16 @@
 {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 4%;
   justify-content: center;
 }
 
 .utsLogo
 {
-  max-height: 25rem;
   border-radius: 50px;
-  max-width: 100%;
   filter: brightness(90%);
+  max-height: 25rem;
+  object-fit: cover;
 }
 
 header
