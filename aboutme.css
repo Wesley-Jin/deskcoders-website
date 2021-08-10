@@ -114,6 +114,21 @@
   object-fit: cover;
 }
 
+.backTopBtn
+{
+  display: block;
+  margin-left: auto;
+  width: 10%;
+  height: 100px;
+  animation: pulse 1.5s infinite;
+  visibility: hidden;
+}
+
+.backTopBtn:hover 
+{
+  cursor: pointer;
+}
+
 .head
 {
   padding: 1.5rem 3rem;
