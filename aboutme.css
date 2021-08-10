@@ -121,7 +121,7 @@
   background-size: 80px 80px;
   width: 5%;
   height: 10%;
-  /* animation: pulse 7s infinite; */
+  animation: pulse 7s infinite;
   position: fixed;
   bottom: 0;
   right: 0;
