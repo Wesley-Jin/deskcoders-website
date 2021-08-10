@@ -165,7 +165,6 @@ header
 .social {
   display: flex;
   justify-content: center;
-  z-index: 10;
   width: 100%;
   left: 0px;
 }
