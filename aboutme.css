@@ -53,8 +53,8 @@
 {
   background-image: url("public/mountainBG.jpg");
   z-index: 0;
-  padding-top: 17rem;
-  padding-bottom: 17rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -110,6 +110,7 @@
   border-radius: 50px;
   filter: brightness(90%);
   max-height: 25rem;
+  max-width: 20rem;
   object-fit: cover;
 }
 
