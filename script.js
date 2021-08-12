@@ -35,8 +35,7 @@ window.addEventListener("scroll", () => {
 
 const loaderWrapper = document.querySelector('.loaderWrap');
 window.addEventListener('load', function() {
-  this.document.querySelector('.loaderWrap').classList.add('fade-out');
-  loaderWrapper.parentElement.removeChild(loaderWrapper);
+  document.querySelector('.loaderWrap').classList.add('fade-out');
 })
 
 
