@@ -119,7 +119,7 @@
   background-image: url("public/up-arrow.svg");
   background-repeat: no-repeat;
   background-size: 80px 80px;
-  width: 5%;
+  width: 8%;
   height: 10%;
   animation: pulse 7s infinite;
   position: fixed;
